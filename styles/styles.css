@@ -1,0 +1,116 @@
+h1{
+    color: pink;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h2{
+    color: pink;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h3{
+    color: pink;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 6px;
+}
+
+.contenedor-h3{
+    border: 0.2rem solid;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+    
+
+.contenedor{
+    border: 0.2rem solid;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+
+.verde-1{
+    width: 50%;
+}
+
+.verde-2{
+    width: 49%;
+}
+
+.verde-3{
+    padding-left: 350px;
+    width: 40%;
+}
+
+.foto-roar{
+    width: 59%;
+}
+
+.foton-en-mi-casa{
+    width: 19.1%;
+}
+
+.foto-mix{
+    width: 19.15%;
+}
+
+.foto-en-la-que-sali-mega-fachero{
+    width: 50%;
+    margin-left: 0.5rem;
+}
+
+.mucha-facha{
+    width: 32.4%;
+    margin-left: 4rem;
+}
+
+body{
+    background-color: indigo;
+}
+
+.fotopapas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .verde-1{
+        width: 50%;
+    }
+    .verde-2{
+        width: 47.6%;
+    }
+    .verde-3{
+        width: 47%;
+        padding-left: 6.2rem;
+    }
+
+    .foto-roar{
+        width: 50%;
+    }
+
+    .foton-en-mi-casa{
+        width: 19.1%;
+    }
+
+    .foto-en-la-que-sali-mega-fachero{
+        width: 50%;
+    }
+
+    .mucha-facha{
+        width: 32.4%;
+        margin-left: 1rem;
+    }
+
+    .fotopapa-imagen{
+        padding: 1rem;
+    }
+}
